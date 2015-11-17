@@ -10,4 +10,8 @@ describe Calculator do
   context 'when subtracting' do
     Then { calculator.subtract(2,1) == 1}
   end
+
+  context 'when multiplying' do
+    Then { calculator.multiply(10,10) == 100 }
+  end
 end
