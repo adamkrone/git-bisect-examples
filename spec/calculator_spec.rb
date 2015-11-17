@@ -14,4 +14,8 @@ describe Calculator do
   context 'when multiplying' do
     Then { calculator.multiply(10,10) == 100 }
   end
+
+  context 'when dividing' do
+    Then { calculator.divide(10,10) == 1 }
+  end
 end
